@@ -19,3 +19,10 @@ h1 {
 	padding: 30px;
 }
 
+#pp {
+		width: 100%;
+	}
+
+#pp > img {
+		width: 25vh;
+	}
