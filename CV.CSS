@@ -1,9 +1,10 @@
 *, html {
 	/*font-family: skia;*/
-	color: white;
+	/*color: black;*/
 }
 .black {
-	background-color: black;
+	background-color: white;
+	color: black;
 }
 .container-fluid {
 	padding: 0;
@@ -12,6 +13,7 @@ header {
 	height: 100%;
 	text-align: center;
 	margin: auto;
+	padding: 15px !important;
 }
 header > #logo {
 	background-color: white;
@@ -22,7 +24,6 @@ header > #logo > img  {
 }
 
 h1 {
-	color: white;
 	margin: 0;
 	font-weight: bolder;
 	padding: 15px;
@@ -30,13 +31,13 @@ h1 {
 h4 {
 	font-weight: lighter;
 }
-#pp {
+/*#pp {
 width: 100%;
 }
 
 #pp > img {
 width: 25vh;
-}
+}*/
 #download {
 	width: 100%;
 	background-color: white;
